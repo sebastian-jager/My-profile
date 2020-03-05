@@ -1,0 +1,144 @@
+.CONTAINER{
+  background-color: rgba(255, 255, 255,0);
+  border:none;
+  margin: 15px auto;
+  box-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.CONTAINER:hover {
+  background-color: rgba(255, 255, 255, 0);
+  transform: scale(1,1);
+  transition-delay: 0.5s;
+}
+
+body{
+  background-image: url("Ressources/blason2.jpg"), url("Ressources/logo2.png"),url("Ressources/Scout.png"),url("Ressources/paris.png"),url("Ressources/essec.png");
+  background-size: 270px 250px, 270px 180px, 320px 180px,230px 240px,750px 400px;
+  background-position: 2% 6%, 97% 92%,99% 7%,3% 92%, center ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgb(17, 109, 8);
+  font-family:'Times New Roman';
+}
+
+
+div{
+  border: solid;
+  border-color: rgb(18, 18, 107);
+  border-radius: 50px;
+
+  text-align: center;
+
+  background-color: rgba(255, 255, 255, 0.9);
+  color: rgb(0, 0, 0);
+
+  margin: 50px auto 50px;
+  padding:20px 20px 30px 20px ;
+
+  box-shadow: 0px 13px 27px rgba(151, 156, 172, 0.9);
+}
+
+div:hover{
+  background-color: rgb(20, 98, 161);
+  color: white;
+  transform: scale(1.098,1.098);
+  transition-delay:0.2s;
+}
+
+#photo{
+  width: 152px;
+  height: 180px;
+  border-radius: 20%;
+  }
+
+h3{
+  font-size: 22px;
+  font-weight: bold;
+  }
+
+#RESEAUX{
+  border-width : 10px;
+  height:80px;
+  width:80px;
+  background-color: white;
+  border: rgb(255, 255, 255);
+  border-radius : 18px;
+}
+
+#SPORTS{
+    background-image: url("Ressources/gym.png"),url("Ressources/parachutist.png"), url("Ressources/rugby.png"),url("Ressources/boxing.png"),url("Ressources/sport.png");
+    background-size: 45px 45px;
+    background-position: 35% 61%, 35% 90%, 38% 31%, 63% 44%,65% 76%;
+    background-repeat: no-repeat;
+   }
+
+#EFFETS{
+  border-style: solid;
+  border-width: 7px;
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(20, 69, 114);
+  transition: 2s;
+}
+
+#EFFETS:hover{
+  background-color: rgb(255, 255, 255);
+  border-width: 10px;
+  width: 220px;
+  height: 220px;
+}
+
+#OBJET{
+  border-radius: 30%;
+  display: block;
+  width: 150px;
+  height: 150px;
+  transition: 2s ;
+   }
+
+#OBJET:hover{
+  border-radius: 30%;
+  width: 220px;
+  height: 220px;
+  transform: rotate(360deg);
+    }  
+
+
+@media (min-width:760px)  {
+  .CONTAINER {
+  width: 600px
+    }
+  #INTRO{
+  width:700px;
+  margin: 0 -12%;}}
+
+@media (max-width:1250px)  {
+  body{
+  background-image: url("Ressources/blason2.jpg"),url("Ressources/logo2.png"),url("Ressources/paris.png"),url("Ressources/Scout.png"),url("Ressources/essec.png");
+  background-size: 220px 200px,240px 150px,180px 170px, 290px 140px,750px 400px;
+  background-position: 4% 9%, 97% 92%, 4% 95%,98% 10%, center ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgb(17, 109, 8);
+    }
+  #INTRO{
+  width: 400px;
+  margin: 0 10%;}}
+
+
+@media (max-width:800px)  {
+  .CONTAINER {
+  width: 450px
+    }
+  #INTRO{
+  width: 400px;
+  margin: 50px -0%;}
+  body{
+  background-image: url("Ressources/blason2.jpg"), url("Ressources/logo2.png"),url("Ressources/paris.png"),url("Ressources/Scout.png"),url("Ressources/essec.png");
+  background-size: 220px 200px,210px 150px,180px 170px, 290px 140px,550px 300px;
+  background-position: 4% 9%, 97% 84%,4% 87% ,98% 14%, center ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgb(17, 109, 8)}}
